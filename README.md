@@ -23,11 +23,20 @@ Examples of use
 Listing available suites:
 
     # /usr/sbin/yumbootstrap --list-suites
+    centos-4.0
+    centos-4.9
     centos-5
     centos-6
-    ...
+    centos-7
+    centos-72
+    fedora-17
+    fedora-18
     fedora-19
     fedora-20
+    fedora-21
+    fedora-22
+    scientific-7
+
 
 Installing *centos-6* suite to `/mnt/chroot/centos-6-chroot`:
 
