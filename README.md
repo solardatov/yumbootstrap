@@ -29,6 +29,8 @@ Listing available suites:
     centos-6
     centos-7
     centos-72
+    centos-72-from-mounted-media
+    centos-72-from-mounted-media-build-machine
     fedora-17
     fedora-18
     fedora-19
@@ -37,6 +39,7 @@ Listing available suites:
     fedora-22
     scientific-7
 
+For *mounted_media suites, the tool is expecting CentOS 7.2 ISO mounted to /media/cdrom
 
 Installing *centos-6* suite to `/mnt/chroot/centos-6-chroot`:
 
