@@ -1,0 +1,59 @@
+# subset from @Core
+coreutils
+bash
+grep
+gawk
+basesystem
+rpm
+initscripts
+iproute
+
+# custom packages list
+vim
+gcc
+make
+bzip2
+git
+tar
+bc
+gcc-c++
+rpm-build
+
+libevent-devel
+jansson-devel
+libnl-devel
+libnl3-devel
+libpcap-devel
+gperftools
+openssl
+openssl-devel
+libaio-devel
+xfsprogs
+xfsprogs-devel
+xfsprogs-qa-devel
+compat-gcc-44
+compat-gcc-44-c++
+libdb-cxx
+libdb-cxx-devel
+boost
+boost-devel
+pciutils-devel
+
+# subset from @Base
+less
+make
+mktemp
+yum
+#authconfig
+#dhclient
+chkconfig
+# graphical boot helper (used by initscripts)
+plymouth
+# ~root/.*
+rootfiles
+
+# redhat-release
+centos-release
+
+# required to fix RPM DB
+/usr/bin/db_load
