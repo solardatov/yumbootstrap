@@ -18,6 +18,7 @@ tar
 bc
 gcc-c++
 rpm-build
+wget
 
 libevent-devel
 jansson-devel
