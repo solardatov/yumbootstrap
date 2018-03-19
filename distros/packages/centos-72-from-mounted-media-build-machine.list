@@ -19,6 +19,7 @@ bc
 gcc-c++
 rpm-build
 wget
+cmake
 
 libevent-devel
 jansson-devel
